@@ -19,4 +19,4 @@ dependencies {
 }
 
 defaultTasks = ['clean']
-task stage(dependsOn: ['clean', 'installDust'])
+task stage(dependsOn: ['clean', 'installDist'])
